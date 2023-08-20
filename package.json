@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JoyJaewon/Youtube-Clone#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "express": "^4.18.2",
     "mongoose": "^7.4.3",
     "morgan": "^1.10.0",
