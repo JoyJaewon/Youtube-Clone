@@ -24,6 +24,6 @@ userRouter
   .get(getChangePassword)
   .post(postChangePassword);
 userRouter.get("/delete", remove);
-userRouter.get(":id", see);
+userRouter.get("/:id", see);
 
 export default userRouter;
